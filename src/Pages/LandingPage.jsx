@@ -6,8 +6,8 @@ export default function LandingPage() {
     return (
         <>
             <Header />
-            <div className="bg-[url(/HomeImg.jpg)] bg-no-repeat w-full h-80 md:h-250 bg-cover flex items-center">
-                <h1 className="w-full text-gray-50 text-md md:text-xl text-center m-2">
+            <div className="bg-[url(/HomeImg.jpg)] bg-no-repeat w-full h-100 md:h-150 bg-cover flex items-center">
+                <h1 className="m-5 md:m-0 w-full text-gray-100 text-md md:text-xl text-justify bg-gray-900 rounded-lg p-5">
                     Welcome to IronPulse Fitness - Where Strength Meets Passion. Whether you're taking your first step into fitness or you're a seasoned athlete, we’re here to help you crush your goals and redefine your limits. At IronPulse, we believe fitness is more than just lifting weights – it’s about building confidence, resilience, and a community that supports you every step of the way.
                 </h1>
             </div>
