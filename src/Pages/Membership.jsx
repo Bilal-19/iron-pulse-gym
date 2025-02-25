@@ -68,6 +68,12 @@ export default function Membership() {
                     </div>
                 </div>
             </div>
+
+            <div className="w-full text-center mt-30 mb-10">
+                <p className="ff-playfair italic text-md md:text-2xl">
+                Choose your plan and join the IronPulse family today!
+                </p>
+            </div>
             <Footer />
         </>
     )
