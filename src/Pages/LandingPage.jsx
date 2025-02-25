@@ -13,7 +13,7 @@ export default function LandingPage() {
             </div>
 
             <div className="w-full mt-30 mb-10 text-center">
-                <h2 className="text-4xl mb-2">Why Choose Us?</h2>
+                <h2 className="text-3xl md:text-4xl mb-2">Why Choose Us?</h2>
                 <p>
                     At IronPulse Fitness, we're not just a gym - we're a movement. Here's what sets us apart:
                 </p>
@@ -21,13 +21,13 @@ export default function LandingPage() {
 
             <div className="container mx-auto mt-10 mb-10">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-6">
-                    <div>
+                    <div className="m-3 md:m-0 text-justify">
                         <img src="./equipment.png" alt="equipment" className="size-16 mx-auto" />
                         <h3 className="font-semibold text-xl">State-of-the-Art Equipment:</h3>
                         <p>From cutting-edge cardio machines to free weights and functional training zones, we’ve got everything you need to level up your fitness game.</p>
                     </div>
 
-                    <div>
+                    <div className="m-3 md:m-0 text-justify">
                         <img src="./gym-trainer.png" alt="gym-trainer" className="size-16 mx-auto" />
                         <h3 className="font-semibold text-xl">Expert Trainers:</h3>
                         <p>
@@ -35,7 +35,7 @@ export default function LandingPage() {
                         </p>
                     </div>
 
-                    <div>
+                    <div className="m-3 md:m-0 text-justify">
                         <img src="./communities.png" alt="communities" className="size-16 mx-auto" />
                         <h3 className="font-semibold text-xl">Inclusive Community:</h3>
                         <p>
@@ -43,7 +43,7 @@ export default function LandingPage() {
                         </p>
                     </div>
 
-                    <div>
+                    <div className="m-3 md:m-0 text-justify">
                         <img src="./flexible-membership.png" alt="flexible-membership" className="size-16 mx-auto" />
                         <h3 className="font-semibold text-xl">Flexible Memberships:</h3>
                         <p>
@@ -54,14 +54,14 @@ export default function LandingPage() {
             </div>
 
             <div className="w-full mt-30 mb-10 text-center">
-                <h2 className="text-4xl mb-2">Programs Overview</h2>
+                <h2 className="text-3xl md:text-4xl mb-2">Programs Overview</h2>
                 <p>
                     Explore our wide range of programs designed to fit your lifestyle and goals:
                 </p>
             </div>
             <div className="container mx-auto mt-10 mb-10">
                 <div className="grid md:grid-cols-4 gap-4">
-                    <div>
+                    <div className="m-3 md:m-0 text-justify">
                         <img src="./strength-training.png" alt="strength-training" className="size-16 mx-auto" />
                         <h3 className="font-semibold text-xl">Strength Training:</h3>
                         <p>
@@ -69,7 +69,7 @@ export default function LandingPage() {
                         </p>
                     </div>
 
-                    <div>
+                    <div className="m-3 md:m-0 text-justify">
                         <img src="./cardio.png" alt="cardio" className="size-16 mx-auto" />
                         <h3 className="font-semibold text-xl">HIIT & Cardio:</h3>
                         <p>
@@ -77,7 +77,7 @@ export default function LandingPage() {
                         </p>
                     </div>
 
-                    <div>
+                    <div className="m-3 md:m-0 text-justify">
                         <img src="./yoga.png" alt="yoga" className="size-16 mx-auto" />
                         <h3 className="font-semibold text-xl">Yoga & Recovery:</h3>
                         <p>
@@ -85,7 +85,7 @@ export default function LandingPage() {
                         </p>
                     </div>
 
-                    <div>
+                    <div className="m-3 md:m-0 text-justify">
                         <img src="./personal-trainer.png" alt="personal-trainer" className="size-16 mx-auto" />
                         <h3 className="font-semibold text-xl">Personal Training:</h3>
                         <p>
@@ -96,7 +96,7 @@ export default function LandingPage() {
             </div>
 
             <div className="w-full text-center mt-30 mb-10">
-                <p className="ff-playfair italic text-xl md:text-2xl">
+                <p className="ff-playfair italic text-md md:text-2xl">
                     Ready to transform? Join IronPulse Fitness today and take the first step toward a stronger, healthier you!
                 </p>
             </div>
