@@ -7,7 +7,7 @@ export default function Programs() {
         <>
             <Header />
 
-            <div className="bg-[url(/programs-bg.jpg)] bg-no-repeat w-full h-60 md:h-100 bg-cover flex flex-col items-center justify-center">
+            <div className="bg-[url(/programs-bg.jpg)] bg-no-repeat w-full h-80 md:h-100 bg-cover flex flex-col items-center justify-center">
                 <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-3xl md:text-5xl p-5 font-semibold">
                 Programs           
                 </h1>

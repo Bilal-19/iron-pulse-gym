@@ -7,7 +7,7 @@ export default function Membership() {
         <>
             <Header />
 
-            <div className="bg-[url(/membership.jpg)] bg-no-repeat w-full h-60 md:h-100 bg-cover flex flex-col items-center justify-center">
+            <div className="bg-[url(/membership.jpg)] bg-no-repeat w-full h-80 md:h-100 bg-cover flex flex-col items-center justify-center">
                 <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-3xl md:text-5xl p-5 font-semibold">
                     Membership
                 </h1>
@@ -51,7 +51,7 @@ export default function Membership() {
                 </div>
             </div>
 
-            <div className="w-full mt-30 mb-10 text-center">
+            <div className="container mx-auto mt-30 mb-10 text-center">
                 <h2 className="text-3xl md:text-4xl mb-2">Perks of Joining:</h2>
                 <p>
                     When you join IronPulse Fitness, you’re not just getting a gym membership – you’re joining a community. Here’s what you’ll enjoy:

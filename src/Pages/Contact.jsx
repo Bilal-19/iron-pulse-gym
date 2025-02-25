@@ -7,7 +7,7 @@ export default function Contact() {
         <>
             <Header />
 
-            <div className="bg-[url(/contact.jpg)] bg-no-repeat w-full h-60 md:h-100 bg-cover flex flex-col items-center justify-center">
+            <div className="bg-[url(/contact.jpg)] bg-no-repeat w-full h-80 md:h-100 bg-cover flex flex-col items-center justify-center">
                 <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-3xl md:text-5xl p-5 font-semibold">
                     Let's connect! Reach out to us today.
                 </h1>
@@ -42,11 +42,11 @@ export default function Contact() {
                     <div className="border border-gray-300 rounded-lg p-10 m-5 md:m-0 bg-gray-100 shadow-md">
                         <h4 className="text-center font-medium text-3xl mb-3">Contact Us</h4>
                         <form action="">
-                            <input type="text" className="shadow-sm p-2 w-3/4 block mx-auto border border-gray-300 rounded-sm focus:outline-none mb-5" placeholder="Name" />
-                            <input type="email" className="shadow-sm p-2 w-3/4 block mx-auto border border-gray-300 rounded-sm focus:outline-none mb-5" placeholder="Email" />
-                            <input type="text" className="shadow-sm p-2 w-3/4 block mx-auto border border-gray-300 rounded-sm focus:outline-none mb-5" placeholder="Phone" />
-                            <textarea rows="5" style={{resize:"none"}} className="shadow-sm p-2 w-3/4 block mx-auto border border-gray-300 rounded-sm focus:outline-none mb-3" placeholder="Message"></textarea>
-                            <button className="bg-gray-900 text-white w-3/4 block mx-auto p-2 shadow-sm rounded-sm">Submit</button>
+                            <input type="text" className="shadow-sm p-2 md:w-3/4 block mx-auto border border-gray-300 rounded-sm focus:outline-none mb-5" placeholder="Name" />
+                            <input type="email" className="shadow-sm p-2 md:w-3/4 block mx-auto border border-gray-300 rounded-sm focus:outline-none mb-5" placeholder="Email" />
+                            <input type="text" className="shadow-sm p-2 md:w-3/4 block mx-auto border border-gray-300 rounded-sm focus:outline-none mb-5" placeholder="Phone" />
+                            <textarea rows="5" style={{resize:"none"}} className="shadow-sm p-2 md:w-3/4 block mx-auto border border-gray-300 rounded-sm focus:outline-none mb-3" placeholder="Message"></textarea>
+                            <button className="bg-gray-900 text-white md:w-3/4 block mx-auto p-2 shadow-sm rounded-sm">Submit</button>
                         </form>
                     </div>
                 </div>

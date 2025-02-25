@@ -6,20 +6,20 @@ export default function LandingPage() {
     return (
         <>
             <Header />
-            <div className="bg-[url(/HomeImg.jpg)] bg-no-repeat w-full h-60 md:h-100 bg-cover flex flex-col justify-center items-center">
+            <div className="bg-[url(/HomeImg.jpg)] bg-no-repeat w-full h-80 md:h-100 bg-cover flex flex-col justify-center items-center">
                 <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-3xl md:text-5xl p-5 font-semibold">Welcome to IronPulse Fitness</h1>
-                <p className="ff-playfair italic text-gray-100 text-xl md:text-3xl text-center mx-3 md:m-0">
+                <p className="ff-playfair italic font-medium text-gray-100 text-xl md:text-2xl text-center mx-3 md:m-0">
                     Ready to transform? Join IronPulse Fitness today and take the first step toward a stronger, healthier you!
                 </p>
             </div>
 
-            <div class="container-fluid mt-10 mb-10 text-justify mx-auto">
+            <div class="container mt-10 mb-10 text-justify mx-auto">
                 <p className="mx-4 md:m-0">
                     Welcome to IronPulse Fitness - Where Strength Meets Passion. Whether you're taking your first step into fitness or you're a seasoned athlete, we’re here to help you crush your goals and redefine your limits. At IronPulse, we believe fitness is more than just lifting weights – it’s about building confidence, resilience, and a community that supports you every step of the way.
                 </p>
             </div>
 
-            <div className="w-full mt-30 mb-10 text-center">
+            <div className="container mx-auto mt-30 mb-10 text-center">
                 <h2 className="text-3xl md:text-4xl mb-2">Why Choose Us?</h2>
                 <p>
                     At IronPulse Fitness, we're not just a gym - we're a movement. Here's what sets us apart:
@@ -60,7 +60,7 @@ export default function LandingPage() {
                 </div>
             </div>
 
-            <div className="w-full mt-30 mb-10 text-center">
+            <div className="container mx-auto mt-30 mb-10 text-center">
                 <h2 className="text-3xl md:text-4xl mb-2">Programs Overview</h2>
                 <p>
                     Explore our wide range of programs designed to fit your lifestyle and goals:
