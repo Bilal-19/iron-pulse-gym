@@ -7,6 +7,15 @@ export default function Programs() {
         <>
             <Header />
 
+            <div className="bg-[url(/programs-bg.jpg)] bg-no-repeat w-full h-60 md:h-100 bg-cover flex flex-col items-center justify-center">
+                <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-3xl md:text-5xl p-5 font-semibold">
+                Programs           
+                </h1>
+                <p className="ff-playfair italic text-gray-100 text-xl md:text-3xl text-center mx-3 md:m-0">
+                Find the perfect program for your goals. Start your journey today!
+                </p>
+            </div>
+
             <div className="w-full mt-10 mb-10 text-center">
                 <h2 className="text-4xl mb-2 font-medium">Programs Offered:</h2>
                 <p>
@@ -68,7 +77,7 @@ export default function Programs() {
 
             <div className="w-full text-center mt-30 mb-10">
                 <p className="ff-playfair italic text-xl md:text-2xl">
-                    Find the perfect program for your goals. Start your journey today!
+                    
                 </p>
             </div>
             <Footer />

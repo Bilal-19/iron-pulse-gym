@@ -6,10 +6,17 @@ export default function LandingPage() {
     return (
         <>
             <Header />
-            <div className="bg-[url(/HomeImg.jpg)] bg-no-repeat w-full h-100 md:h-150 bg-cover flex items-center">
-                <h1 className="m-5 md:m-0 w-full text-gray-100 text-md md:text-xl text-justify bg-gray-900 rounded-lg p-5">
+            <div className="bg-[url(/HomeImg.jpg)] bg-no-repeat w-full h-60 md:h-100 bg-cover flex flex-col justify-center items-center">
+                <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-3xl md:text-5xl p-5 font-semibold">Welcome to IronPulse Fitness</h1>
+                <p className="ff-playfair italic text-gray-100 text-xl md:text-3xl text-center mx-3 md:m-0">
+                    Ready to transform? Join IronPulse Fitness today and take the first step toward a stronger, healthier you!
+                </p>
+            </div>
+
+            <div class="w-full mt-10 mb-10 text-center">
+                <p>
                     Welcome to IronPulse Fitness - Where Strength Meets Passion. Whether you're taking your first step into fitness or you're a seasoned athlete, we’re here to help you crush your goals and redefine your limits. At IronPulse, we believe fitness is more than just lifting weights – it’s about building confidence, resilience, and a community that supports you every step of the way.
-                </h1>
+                </p>
             </div>
 
             <div className="w-full mt-30 mb-10 text-center">
@@ -73,7 +80,7 @@ export default function LandingPage() {
                         <img src="./cardio.png" alt="cardio" className="size-16 mx-auto" />
                         <h3 className="font-semibold text-xl">HIIT & Cardio:</h3>
                         <p>
-                        Burn fat, improve cardiovascular health, and push your limits with our high-intensity interval training sessions.
+                            Burn fat, improve cardiovascular health, and push your limits with our high-intensity interval training sessions.
                         </p>
                     </div>
 
@@ -81,7 +88,7 @@ export default function LandingPage() {
                         <img src="./yoga.png" alt="yoga" className="size-16 mx-auto" />
                         <h3 className="font-semibold text-xl">Yoga & Recovery:</h3>
                         <p>
-                        Balance your body and mind with our yoga classes designed to improve flexibility, reduce stress, and aid recovery.
+                            Balance your body and mind with our yoga classes designed to improve flexibility, reduce stress, and aid recovery.
                         </p>
                     </div>
 
@@ -89,7 +96,7 @@ export default function LandingPage() {
                         <img src="./personal-trainer.png" alt="personal-trainer" className="size-16 mx-auto" />
                         <h3 className="font-semibold text-xl">Personal Training:</h3>
                         <p>
-                        Get one-on-one attention with a customized plan tailored to your goals. Our trainers are here to help you succeed.
+                            Get one-on-one attention with a customized plan tailored to your goals. Our trainers are here to help you succeed.
                         </p>
                     </div>
                 </div>
@@ -97,7 +104,6 @@ export default function LandingPage() {
 
             <div className="w-full text-center mt-30 mb-10">
                 <p className="ff-playfair italic text-md md:text-2xl">
-                    Ready to transform? Join IronPulse Fitness today and take the first step toward a stronger, healthier you!
                 </p>
             </div>
 
