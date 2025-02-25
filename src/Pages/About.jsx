@@ -7,6 +7,15 @@ export default function About() {
         <>
             <Header />
 
+            <div className="bg-[url(/about-bg.jpg)] bg-no-repeat w-full h-100 md:h-80 bg-cover flex flex-col items-center justify-center">
+                <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-md md:text-5xl p-5">
+                    About                
+                </h1>
+                <p className="ff-playfair italic text-gray-100 text-xl md:text-3xl">
+                Get to know us better – drop by for a tour or schedule a free consultation!
+                </p>
+            </div>
+
             <div class="container mx-auto mt-10 mb-10">
                 <div class="grid md:grid-cols-2 gap-24">
                     <div className="m-2 mt-20 md:mt-25">
@@ -48,32 +57,26 @@ export default function About() {
                 </p>
             </div>
 
-            <div class="container mx-auto mt-10 mb-10">
+            <div class="container mx-auto mt-10 mb-30">
                 <div class="grid md:grid-cols-3 gap-1">
                     <div className="text-center mb-10 md:mb-0">
-                        <img src="/team-member.png" alt="Alex Carter" className="size-24 mx-auto"/>
+                        <img src="/team-member.png" alt="Alex Carter" className="size-24 mx-auto" />
                         <h4 className="text-xl font-medium">Alex Carter</h4>
                         <p>Strength Training Specialist with 10+ years of experience.</p>
                     </div>
 
                     <div className="text-center mb-10 md:mb-0">
-                        <img src="/team-member.png" alt="Maya Patel" className="size-24 mx-auto"/>
+                        <img src="/team-member.png" alt="Maya Patel" className="size-24 mx-auto" />
                         <h4 className="text-xl font-medium">Maya Patel</h4>
                         <p>Yoga and Recovery Coach, passionate about holistic wellness.</p>
                     </div>
 
                     <div className="text-center mb-10 md:mb-0">
-                        <img src="/team-member.png" alt="Chris Johnson" className="size-24 mx-auto"/>
+                        <img src="/team-member.png" alt="Chris Johnson" className="size-24 mx-auto" />
                         <h4 className="text-xl font-medium">Chris Johnson</h4>
                         <p>HIIT and Cardio Expert, known for his high-energy classes.</p>
                     </div>
                 </div>
-            </div>
-
-            <div className="w-full text-center mt-30 mb-10">
-                <p className="ff-playfair italic text-xl md:text-2xl">
-                Get to know us better – drop by for a tour or schedule a free consultation!
-                </p>
             </div>
 
             <Footer />
