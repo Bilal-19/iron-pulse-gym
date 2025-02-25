@@ -1,5 +1,6 @@
 import About from './Pages/About'
 import Blog from './Pages/Blog'
+import Contact from './Pages/Contact'
 import LandingPage from './Pages/LandingPage'
 import Membership from './Pages/Membership'
 import Programs from './Pages/Programs'
@@ -17,6 +18,7 @@ function App() {
           <Route path="/programs" element={<Programs />}></Route>
           <Route path="/membership" element={<Membership />}></Route>
           <Route path="/blogs" element={<Blog />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
         </Routes>
       </BrowserRouter>
     </>
