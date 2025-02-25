@@ -9,50 +9,39 @@ export default function About() {
 
             <div className="bg-[url(/about-bg.jpg)] bg-no-repeat w-full h-60 md:h-100 bg-cover flex flex-col items-center justify-center">
                 <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-3xl md:text-5xl p-5 font-semibold">
-                    About                
+                    About
                 </h1>
                 <p className="ff-playfair italic text-gray-100 text-xl md:text-3xl text-center mx-3 md:m-0">
-                Get to know us better – drop by for a tour or schedule a free consultation!
+                    Get to know us better – drop by for a tour or schedule a free consultation!
                 </p>
             </div>
 
-            <div class="container mx-auto mt-10 mb-10">
-                <div class="grid md:grid-cols-2 gap-24">
-                    <div className="m-2 mt-20 md:mt-25">
-                        <h2 className="text-4xl font-medium mb-2">Our Story</h2>
-                        <p>
-                            IronPulse Fitness was born out of a passion for fitness and a belief that
-                            everyone deserves access to top-notch training. Founded in 2023 by fitness
-                            enthusiasts, we’ve grown into a community of like-minded individuals who
-                            thrive on progress and positivity. Our mission is simple: to empower
-                            individuals to unlock their full potential through personalized fitness
-                            programs, expert guidance, and a supportive environment.
-                        </p>
-                    </div>
-
-                    <div className="m-2">
-                        <img src="./our-story.jpg" alt="our-story" className="rounded-lg h-120 object-cover" />
-                    </div>
+            <div class="mx-auto rounded-lg text-white h-120 w-[94%] mt-10 mb-10 bg-[url(/our-story.jpg)] bg-cover bg-no-repeat flex items-center justify-center">
+                <div className="w-3/4 md:w-1/2 text-justify">
+                    <h2 className="text-4xl font-medium mb-2">Our Story</h2>
+                    <p>
+                        IronPulse Fitness was born out of a passion for fitness and a belief that
+                        everyone deserves access to top-notch training. Founded in 2023 by fitness
+                        enthusiasts, we’ve grown into a community of like-minded individuals who
+                        thrive on progress and positivity. Our mission is simple: to empower
+                        individuals to unlock their full potential through personalized fitness
+                        programs, expert guidance, and a supportive environment.
+                    </p>
                 </div>
             </div>
 
-            <div class="container mx-auto mt-10 mb-10">
-                <div class="grid md:grid-cols-2 gap-24">
-                    <div className="m-2">
-                        <img src="./mission.jpg" alt="mission" className="rounded-lg h-100 object-cover" />
-                    </div>
-                    <div className="m-2 mt-20 md:mt-25">
-                        <h2 className="text-4xl font-medium mb-2">Our Mission</h2>
-                        <p>
-                            We’re here to help you achieve your fitness goals, no matter where you’re starting from. Whether you’re looking to lose weight, build muscle, or simply live a healthier lifestyle, we’ll provide the tools, knowledge, and motivation you need to succeed.
-                        </p>
-                    </div>
+            <div class="mx-auto rounded-lg text-white h-120 w-[94%] mt-10 mb-10 bg-[url(/mission.jpg)] bg-cover bg-no-repeat flex items-center justify-center">
+                <div className="w-3/4 md:w-1/2 text-justify">
+                    <h2 className="text-4xl font-medium mb-2">Our Mission</h2>
+                    <p>
+                        We’re here to help you achieve your fitness goals, no matter where you’re starting from. Whether you’re looking to lose weight, build muscle, or simply live a healthier lifestyle, we’ll provide the tools, knowledge, and motivation you need to succeed.
+                    </p>
                 </div>
             </div>
 
             <div className="container mx-auto mt-30 mb-10">
                 <h2 className="text-4xl mb-2 font-medium text-center">Meet the Team:</h2>
-                <p>
+                <p className="mx-4 md:m-0">
                     Our certified trainers are here to inspire, motivate, and guide you every step of the way. From nutrition advice to workout plans, they’ve got you covered. Get to know the faces behind IronPulse Fitness:
                 </p>
             </div>

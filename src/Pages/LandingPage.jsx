@@ -13,8 +13,8 @@ export default function LandingPage() {
                 </p>
             </div>
 
-            <div class="w-full mt-10 mb-10 text-center">
-                <p>
+            <div class="container-fluid mt-10 mb-10 text-justify mx-auto">
+                <p className="mx-4 md:m-0">
                     Welcome to IronPulse Fitness - Where Strength Meets Passion. Whether you're taking your first step into fitness or you're a seasoned athlete, we’re here to help you crush your goals and redefine your limits. At IronPulse, we believe fitness is more than just lifting weights – it’s about building confidence, resilience, and a community that supports you every step of the way.
                 </p>
             </div>

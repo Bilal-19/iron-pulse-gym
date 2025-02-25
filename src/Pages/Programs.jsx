@@ -16,7 +16,7 @@ export default function Programs() {
                 </p>
             </div>
 
-            <div className="w-full mt-10 mb-10 text-center">
+            <div className="container md:mx-auto mt-10 mb-10 text-center">
                 <h2 className="text-4xl mb-2 font-medium">Programs Offered:</h2>
                 <p>
                     At IronPulse Fitness, we offer a variety of programs to suit every fitness level and goal. Here’s what you can expect:
@@ -25,7 +25,7 @@ export default function Programs() {
 
             <div className="container mx-auto mt-10 mb-20">
                 <div className="grid md:grid-cols-3 gap-20 text-justify">
-                    <div>
+                    <div className="mx-4 md:m-0">
                         <img src="./strength-training.png" alt="strength-training" className="size-16 mx-auto" />
                         <h3 className="font-semibold text-xl text-center">Strength Training:</h3>
                         <p>
@@ -33,7 +33,7 @@ export default function Programs() {
                         </p>
                     </div>
 
-                    <div>
+                    <div className="mx-4 md:m-0">
                         <img src="./cardio.png" alt="cardio" className="size-16 mx-auto" />
                         <h3 className="font-semibold text-xl text-center">HIIT & Cardio:</h3>
                         <p>
@@ -41,7 +41,7 @@ export default function Programs() {
                         </p>
                     </div>
 
-                    <div>
+                    <div className="mx-4 md:m-0">
                         <img src="./yoga.png" alt="yoga" className="size-16 mx-auto" />
                         <h3 className="font-semibold text-xl text-center">Yoga & Recovery:</h3>
                         <p>
@@ -49,7 +49,7 @@ export default function Programs() {
                         </p>
                     </div>
 
-                    <div>
+                    <div className="mx-4 md:m-0">
                         <img src="./personal-trainer.png" alt="personal-trainer" className="size-16 mx-auto" />
                         <h3 className="font-semibold text-xl text-center">Personal Training:</h3>
                         <p>
@@ -57,7 +57,7 @@ export default function Programs() {
                         </p>
                     </div>
 
-                    <div>
+                    <div className="mx-4 md:m-0">
                         <img src="./classes.png" alt="classes" className="size-16 mx-auto" />
                         <h3 className="font-semibold text-xl text-center">Group Classes:</h3>
                         <p>
@@ -65,7 +65,7 @@ export default function Programs() {
                         </p>
                     </div>
 
-                    <div>
+                    <div className="mx-4 md:m-0">
                         <img src="./fullbody-workout.png" alt="fullbody-workout" className="size-16 mx-auto" />
                         <h3 className="font-semibold text-xl text-center">PowerCore Circuit:</h3>
                         <p>
