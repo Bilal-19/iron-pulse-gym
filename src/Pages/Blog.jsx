@@ -9,14 +9,14 @@ export default function Blog() {
 
             <div className="bg-[url(/blog-bg.jpg)] bg-no-repeat w-full h-80 md:h-100 bg-cover flex flex-col justify-center items-center">
                 <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-3xl md:text-5xl p-5 font-semibold">Blogs</h1>
-                <p className="ff-playfair italic text-gray-100 text-xl md:text-3xl text-center mx-3 md:m-0">
+                <p className="ff-playfair italic text-gray-100 text-xl md:text-2xl text-center mx-3 md:m-0">
                 Stay updated with our latest fitness tips and stories. Check out our blog!
                 </p>
             </div>
 
             <div className="container mx-auto mt-30 mb-10 text-center">
                 <h2 className="text-3xl md:text-4xl mb-2">Featured Articles:</h2>
-                <p>
+                <p className="m-2 md:m-0">
                     Stay informed and inspired with our latest fitness tips, stories, and insights. Here are some of our most popular articles:
                 </p>
             </div>

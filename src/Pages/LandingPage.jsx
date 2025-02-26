@@ -21,7 +21,7 @@ export default function LandingPage() {
 
             <div className="container mx-auto mt-30 mb-10 text-center">
                 <h2 className="text-3xl md:text-4xl mb-2">Why Choose Us?</h2>
-                <p>
+                <p className="mx-2 md:mx-0">
                     At IronPulse Fitness, we're not just a gym - we're a movement. Here's what sets us apart:
                 </p>
             </div>
@@ -62,7 +62,7 @@ export default function LandingPage() {
 
             <div className="container mx-auto mt-30 mb-10 text-center">
                 <h2 className="text-3xl md:text-4xl mb-2">Programs Overview</h2>
-                <p>
+                <p className="mx-2 md:mx-0">
                     Explore our wide range of programs designed to fit your lifestyle and goals:
                 </p>
             </div>

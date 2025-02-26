@@ -11,14 +11,14 @@ export default function Programs() {
                 <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-3xl md:text-5xl p-5 font-semibold">
                 Programs           
                 </h1>
-                <p className="ff-playfair italic text-gray-100 text-xl md:text-3xl text-center mx-3 md:m-0">
+                <p className="ff-playfair italic text-gray-100 text-xl md:text-2xl text-center mx-3 md:m-0">
                 Find the perfect program for your goals. Start your journey today!
                 </p>
             </div>
 
             <div className="container md:mx-auto mt-10 mb-10 text-center">
                 <h2 className="text-4xl mb-2 font-medium">Programs Offered:</h2>
-                <p>
+                <p className="m-1 md:m-0">
                     At IronPulse Fitness, we offer a variety of programs to suit every fitness level and goal. Here’s what you can expect:
                 </p>
             </div>

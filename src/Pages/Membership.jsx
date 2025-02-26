@@ -11,7 +11,7 @@ export default function Membership() {
                 <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-3xl md:text-5xl p-5 font-semibold">
                     Membership
                 </h1>
-                <p className="ff-playfair italic text-gray-100 text-xl md:text-3xl text-center mx-3 md:m-0">
+                <p className="ff-playfair italic text-gray-100 text-xl md:text-2xl text-center mx-3 md:m-0">
                     Choose your plan and join the IronPulse family today!
                 </p>
             </div>
