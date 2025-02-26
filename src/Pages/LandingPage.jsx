@@ -30,13 +30,13 @@ export default function LandingPage() {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-6">
                     <div className="m-3 md:m-0 text-justify">
                         <img src="./equipment.png" alt="equipment" className="size-16 mx-auto" />
-                        <h3 className="font-semibold text-xl">State-of-the-Art Equipment:</h3>
+                        <h3 className="font-semibold text-xl text-center">State-of-the-Art Equipment:</h3>
                         <p>From cutting-edge cardio machines to free weights and functional training zones, we’ve got everything you need to level up your fitness game.</p>
                     </div>
 
                     <div className="m-3 md:m-0 text-justify">
                         <img src="./gym-trainer.png" alt="gym-trainer" className="size-16 mx-auto" />
-                        <h3 className="font-semibold text-xl">Expert Trainers:</h3>
+                        <h3 className="font-semibold text-xl text-center">Expert Trainers:</h3>
                         <p>
                             Our certified trainers are passionate about helping you succeed. Whether you need a personalized plan or just a spotter, they’ve got your back.
                         </p>
@@ -44,7 +44,7 @@ export default function LandingPage() {
 
                     <div className="m-3 md:m-0 text-justify">
                         <img src="./communities.png" alt="communities" className="size-16 mx-auto" />
-                        <h3 className="font-semibold text-xl">Inclusive Community:</h3>
+                        <h3 className="font-semibold text-xl text-center">Inclusive Community:</h3>
                         <p>
                             We celebrate every milestone, big or small. Our members are more than just gym-goers – they’re family.
                         </p>
@@ -52,7 +52,7 @@ export default function LandingPage() {
 
                     <div className="m-3 md:m-0 text-justify">
                         <img src="./flexible-membership.png" alt="flexible-membership" className="size-16 mx-auto" />
-                        <h3 className="font-semibold text-xl">Flexible Memberships:</h3>
+                        <h3 className="font-semibold text-xl text-center">Flexible Memberships:</h3>
                         <p>
                             No long-term contracts, no hidden fees. Just pure fitness freedom.
                         </p>
@@ -70,7 +70,7 @@ export default function LandingPage() {
                 <div className="grid md:grid-cols-4 gap-4">
                     <div className="m-3 md:m-0 text-justify">
                         <img src="./strength-training.png" alt="strength-training" className="size-16 mx-auto" />
-                        <h3 className="font-semibold text-xl">Strength Training:</h3>
+                        <h3 className="font-semibold text-xl text-center">Strength Training:</h3>
                         <p>
                             Build muscle, increase endurance, and boost your metabolism with our expert-led strength training programs.
                         </p>
@@ -78,7 +78,7 @@ export default function LandingPage() {
 
                     <div className="m-3 md:m-0 text-justify">
                         <img src="./cardio.png" alt="cardio" className="size-16 mx-auto" />
-                        <h3 className="font-semibold text-xl">HIIT & Cardio:</h3>
+                        <h3 className="font-semibold text-xl text-center">HIIT & Cardio:</h3>
                         <p>
                             Burn fat, improve cardiovascular health, and push your limits with our high-intensity interval training sessions.
                         </p>
@@ -86,7 +86,7 @@ export default function LandingPage() {
 
                     <div className="m-3 md:m-0 text-justify">
                         <img src="./yoga.png" alt="yoga" className="size-16 mx-auto" />
-                        <h3 className="font-semibold text-xl">Yoga & Recovery:</h3>
+                        <h3 className="font-semibold text-xl text-center">Yoga & Recovery:</h3>
                         <p>
                             Balance your body and mind with our yoga classes designed to improve flexibility, reduce stress, and aid recovery.
                         </p>
@@ -94,7 +94,7 @@ export default function LandingPage() {
 
                     <div className="m-3 md:m-0 text-justify">
                         <img src="./personal-trainer.png" alt="personal-trainer" className="size-16 mx-auto" />
-                        <h3 className="font-semibold text-xl">Personal Training:</h3>
+                        <h3 className="font-semibold text-xl text-center">Personal Training:</h3>
                         <p>
                             Get one-on-one attention with a customized plan tailored to your goals. Our trainers are here to help you succeed.
                         </p>

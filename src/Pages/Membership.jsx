@@ -26,24 +26,24 @@ export default function Membership() {
             <div class="container mx-auto mt-10 mb-10">
                 <div class="grid md:grid-cols-3 gap-20">
                     <div className="m-3 md:m-0 text-justify">
-                        <img src="/basic.png" alt="basic-plan" className="size-16" />
-                        <h3 className="font-medium text-2xl">Basic Plan</h3>
+                        <img src="/basic.png" alt="basic-plan" className="size-16 mx-auto" />
+                        <h3 className="font-medium text-2xl text-center">Basic Plan</h3>
                         <p className="text-justify">
                             Access to gym facilities during off-peak hours. Perfect for those who prefer a flexible schedule.
                         </p>
                     </div>
 
                     <div className="m-3 md:m-0 text-justify">
-                        <img src="/premium.png" alt="premium-plan" className="size-16" />
-                        <h3 className="font-medium text-2xl">Premium Plan</h3>
+                        <img src="/premium.png" alt="premium-plan" className="size-16 mx-auto" />
+                        <h3 className="font-medium text-2xl text-center">Premium Plan</h3>
                         <p className="text-justify">
                             Unlimited access to all facilities, group classes, and discounts on personal training sessions.
                         </p>
                     </div>
 
                     <div className="m-3 md:m-0 text-justify">
-                        <img src="/elite.png" alt="elite-plan" className="size-16" />
-                        <h3 className="font-medium text-2xl">Elite Plan</h3>
+                        <img src="/elite.png" alt="elite-plan" className="size-16 mx-auto" />
+                        <h3 className="font-medium text-2xl text-center">Elite Plan</h3>
                         <p className="text-justify">
                             Everything in Premium, plus 24/7 access, complimentary fitness assessments, and exclusive member events.
                         </p>
@@ -58,25 +58,25 @@ export default function Membership() {
                 </p>
             </div>
 
-            <div class="container mx-auto mt-10 mb-10">
-                <div class="grid md:grid-cols-4 gap-2">
-                    <div className="m-3 md:m-0 text-justify">
-                        <img src="/free.png" alt="free" className="size-12" />
+            <div class="container mx-auto mt-10 mb-30">
+                <div class="grid md:grid-cols-4 gap-8">
+                    <div className="m-3 md:m-0 text-center">
+                        <img src="/free.png" alt="free" className="size-12 mx-auto" />
                         <p>Free trial session</p>
                     </div>
 
-                    <div className="m-3 md:m-0 text-justify">
-                        <img src="/no-contract.png" alt="no-contract" className="size-12" />
+                    <div className="m-3 md:m-0 text-center">
+                        <img src="/no-contract.png" alt="no-contract" className="size-12 mx-auto" />
                         <p>No long-term contracts</p>
                     </div>
 
-                    <div className="m-3 md:m-0 text-justify">
-                        <img src="/events.png" alt="events" className="size-12" />
+                    <div className="m-3 md:m-0 text-center">
+                        <img src="/events.png" alt="events" className="size-12 mx-auto" />
                         <p>Access to exclusive member events</p>
                     </div>
 
-                    <div className="m-3 md:m-0 text-justify">
-                        <img src="/supported-community.png" alt="supported-community" className="size-12" />
+                    <div className="m-3 md:m-0 text-center">
+                        <img src="/supported-community.png" alt="supported-community" className="size-12 mx-auto" />
                         <p>Supportive community to keep you motivated</p>
                     </div>
                 </div>
