@@ -16,7 +16,7 @@ export default function Blog() {
 
             <div className="container mx-auto mt-30 mb-10 text-center">
                 <h2 className="text-3xl md:text-4xl mb-2">Featured Articles:</h2>
-                <p className="m-2 md:m-0">
+                <p className="m-3 md:m-0">
                     Stay informed and inspired with our latest fitness tips, stories, and insights. Here are some of our most popular articles:
                 </p>
             </div>

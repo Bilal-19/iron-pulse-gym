@@ -5,7 +5,7 @@ import Footer from "../Components/Footer";
 export default function About() {
     return (
         <>
-            <Header />
+            <Header/>
 
             <div className="bg-[url(/about-bg.jpg)] bg-no-repeat w-full h-80 md:h-100 bg-cover flex flex-col items-center justify-center">
                 <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-3xl md:text-5xl p-5 font-semibold">

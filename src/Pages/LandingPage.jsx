@@ -5,7 +5,7 @@ import Footer from "../Components/Footer";
 export default function LandingPage() {
     return (
         <>
-            <Header />
+            <Header/>
             <div className="bg-[url(/HomeImg.jpg)] bg-no-repeat w-full h-80 md:h-100 bg-cover flex flex-col justify-center items-center">
                 <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-3xl md:text-5xl p-5 font-semibold">Welcome to IronPulse Fitness</h1>
                 <p className="ff-playfair italic font-medium text-gray-100 text-xl md:text-2xl text-center mx-3 md:m-0">

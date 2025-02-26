@@ -18,7 +18,7 @@ export default function Programs() {
 
             <div className="container md:mx-auto mt-10 mb-10 text-center">
                 <h2 className="text-4xl mb-2 font-medium">Programs Offered:</h2>
-                <p className="m-1 md:m-0">
+                <p className="m-2 md:m-0">
                     At IronPulse Fitness, we offer a variety of programs to suit every fitness level and goal. Here’s what you can expect:
                 </p>
             </div>

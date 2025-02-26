@@ -11,3 +11,8 @@ h1,h2,h3,h4,h5,h6{
 .ff-playfair{
   font-family: "Playfair Display", serif;
 }
+
+
+ul a.active{
+color: #3B82F6;
+}
