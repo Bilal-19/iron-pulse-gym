@@ -55,6 +55,22 @@ export default function Blog() {
                             Rest days aren’t lazy – they’re essential. Find out why recovery is key to achieving your fitness goals
                         </p>
                     </div>
+
+                    <div className="mx-4 md:m-0">
+                        <img src="/best-cardio-workout.png" alt="best-cardio-workout" className="w-full rounded-lg" />
+                        <h3 className="font-medium text-2xl">HIIT vs. LISS: Which Cardio Workout is Right for You?</h3>
+                        <p className="text-justify">
+                            Compare high-intensity interval training and low-intensity steady-state cardio to find your fit.
+                        </p>
+                    </div>
+
+                    <div className="mx-4 md:m-0">
+                        <img src="/fuel-workout-food.png" alt="fuel-workout-food" className="w-full rounded-lg" />
+                        <h3 className="font-medium text-2xl">Top 10 Superfoods to Fuel Your Workouts</h3>
+                        <p className="text-justify">
+                        Discover nutrient-packed foods that can boost your energy and performance.
+                        </p>
+                    </div>
                 </div>
             </div>
 
