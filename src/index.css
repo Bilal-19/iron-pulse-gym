@@ -17,6 +17,20 @@ ul a.active{
 color: #3B82F6;
 }
 
+.li-checkmark li {
+  margin-bottom: 8px;
+  border-bottom: 1px solid black;
+}
+
+.li-checkmark li:last-of-type {
+  border: 0;
+}
+
+.li-checkmark li::before{
+  content: "\2714\0020";
+  color: green;
+}
+
 /* Transition & Animation */
 
 @keyframes slideFromTop {

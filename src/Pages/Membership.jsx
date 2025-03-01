@@ -27,28 +27,43 @@ export default function Membership() {
 
             <div class="container mx-auto mt-10 mb-10">
                 <div class="grid md:grid-cols-3 gap-20">
-                    <div className="m-3 md:m-0 text-justify">
+                    <div className="m-3 md:m-0">
                         <img src="/basic.png" alt="basic-plan" className="size-16 mx-auto" />
-                        <h3 className="font-medium text-2xl text-center">Basic Plan</h3>
-                        <p className="text-justify">
-                            Access to gym facilities during off-peak hours. Perfect for those who prefer a flexible schedule.
-                        </p>
+                        <h3 className="font-medium text-2xl text-center mb-5">Basic Plan</h3>
+                        <ul className="li-checkmark">
+                            <li>Access to gym facilities during off-peak hours</li>
+                            <li>Use of state-of-the-art equipment</li>
+                            <li>Complimentary fitness assessment</li>
+                            <li>No long-term contracts</li>
+                            <li>Supportive community environment</li>
+                        </ul>
                     </div>
 
-                    <div className="m-3 md:m-0 text-justify">
+                    <div className="m-3 md:m-0">
                         <img src="/premium.png" alt="premium-plan" className="size-16 mx-auto" />
-                        <h3 className="font-medium text-2xl text-center">Premium Plan</h3>
-                        <p className="text-justify">
-                            Unlimited access to all facilities, group classes, and discounts on personal training sessions.
-                        </p>
+                        <h3 className="font-medium text-2xl text-center mb-5">Premium Plan</h3>
+                        <ul className="li-checkmark">
+                            <li>Unlimited access to all gym facilities</li>
+                            <li>Access to group classes (yoga, HIIT, spin, etc.)</li>
+                            <li>Discounts on personal training sessions</li>
+                            <li>Complimentary fitness assessment</li>
+                            <li>No long-term contracts</li>
+                            <li>Exclusive member events</li>
+                        </ul>
                     </div>
 
-                    <div className="m-3 md:m-0 text-justify">
+                    <div className="m-3 md:m-0">
                         <img src="/elite.png" alt="elite-plan" className="size-16 mx-auto" />
-                        <h3 className="font-medium text-2xl text-center">Elite Plan</h3>
-                        <p className="text-justify">
-                            Everything in Premium, plus 24/7 access, complimentary fitness assessments, and exclusive member events.
-                        </p>
+                        <h3 className="font-medium text-2xl text-center mb-5">Elite Plan</h3>
+                        <ul className="li-checkmark">
+                            <li>24/7 access to gym facilities</li>
+                            <li>Unlimited group classes and personal training discounts</li>
+                            <li>Complimentary fitness assessment and progress tracking</li>
+                            <li>Priority booking for classes and events</li>
+                            <li>Exclusive access to member-only workshops</li>
+                            <li>Complimentary recovery sessions (e.g., massage, sauna)</li>
+                            <li>No long-term contracts</li>
+                        </ul>
                     </div>
                 </div>
             </div>
