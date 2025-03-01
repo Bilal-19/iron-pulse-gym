@@ -16,3 +16,53 @@ h1,h2,h3,h4,h5,h6{
 ul a.active{
 color: #3B82F6;
 }
+
+/* Transition & Animation */
+
+@keyframes slideFromTop {
+  from{
+    transform: translateY(-100px);
+  }
+  to{
+    transform: translateY(0px);
+  }
+}
+
+.slideFromTop{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation-name: slideFromTop;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes slideFromRight {
+  from{
+    transform: translateX(150px);
+  }
+  to{
+    transform: translateX(0px);
+  }
+}
+
+.slideFromRight{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation-name: slideFromRight;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes slideFromLeft {
+  from{
+    transform: translateX(-100px);
+  }
+  to{
+    transform: translateX(0px);
+  }
+}
+
+.slideFromLeft{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation-name: slideFromLeft;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}

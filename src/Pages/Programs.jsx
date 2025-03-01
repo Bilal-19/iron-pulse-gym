@@ -7,18 +7,20 @@ export default function Programs() {
         <>
             <Header />
 
-            <div className="bg-[url(/programs-bg.jpg)] bg-no-repeat w-full h-80 md:h-100 bg-cover flex flex-col items-center justify-center">
-                <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-3xl md:text-5xl p-5 font-semibold">
-                Programs           
+            <div className="bg-[url(/programs-bg.webp)] bg-no-repeat w-full h-80 md:h-150 bg-cover flex flex-col items-center justify-center">
+                <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-2xl md:text-5xl p-5 font-semibold slideFromTop">
+                    Programs
                 </h1>
-                <p className="ff-playfair italic text-gray-100 text-xl md:text-2xl text-center mx-3 md:m-0">
-                Find the perfect program for your goals. Start your journey today!
-                </p>
+                <div className="backdrop-blur-xl p-5 rounded-md slideFromRight bg-gray-500/70">
+                    <p className="ff-playfair md:font-medium italic text-gray-100 text-md md:text-2xl text-center mx-3 md:m-0">
+                        Find the perfect program for your goals. Start your journey today!
+                    </p>
+                </div>
             </div>
 
             <div className="container md:mx-auto mt-10 mb-10 text-center">
-                <h2 className="text-4xl mb-2 font-medium">Programs Offered:</h2>
-                <p className="m-2 md:m-0">
+                <h2 className="text-4xl mb-2 font-medium slideFromRight">Programs Offered:</h2>
+                <p className="m-2 md:m-0 slideFromLeft">
                     At IronPulse Fitness, we offer a variety of programs to suit every fitness level and goal. Here’s what you can expect:
                 </p>
             </div>
@@ -69,7 +71,7 @@ export default function Programs() {
                         <img src="./fullbody-workout.png" alt="fullbody-workout" className="size-16 mx-auto" />
                         <h3 className="font-semibold text-xl text-center">PowerCore Circuit:</h3>
                         <p>
-                        A high-energy, full-body workout combining strength, cardio, and core exercises. Perfect for building endurance, burning calories, and maximizing results in every session.
+                            A high-energy, full-body workout combining strength, cardio, and core exercises. Perfect for building endurance, burning calories, and maximizing results in every session.
                         </p>
                     </div>
                 </div>
@@ -77,7 +79,7 @@ export default function Programs() {
 
             <div className="w-full text-center mt-30 mb-10">
                 <p className="ff-playfair italic text-xl md:text-2xl">
-                    
+
                 </p>
             </div>
             <Footer />

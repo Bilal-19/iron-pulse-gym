@@ -7,13 +7,15 @@ export default function Contact() {
         <>
             <Header />
 
-            <div className="bg-[url(/contact.jpg)] bg-no-repeat w-full h-80 md:h-100 bg-cover flex flex-col items-center justify-center">
-                <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-3xl md:text-5xl p-5 font-semibold">
+            <div className="bg-[url(/contact.webp)] bg-no-repeat w-full h-80 md:h-150 bg-cover flex flex-col items-center justify-center">
+                <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-2xl md:text-5xl p-5 font-semibold slideFromTop">
                     Let's connect! Reach out to us today.
                 </h1>
-                <p className="ff-playfair italic text-gray-100 text-xl md:text-2xl text-center mx-3 md:m-0">
-                    Have questions or want to schedule a tour? We’d love to hear from you! Fill out the form below, and we’ll get back to you as soon as possible.
-                </p>
+                <div className="backdrop-blur-xl p-5 rounded-md slideFromRight bg-gray-500/70">
+                    <p className="ff-playfair italic md:font-medium text-gray-100 text-md md:text-2xl text-center mx-3 md:m-0">
+                        Have questions or want to schedule a tour? We’d love to hear from you! Fill out the form below, and we’ll get back to you as soon as possible.
+                    </p>
+                </div>
             </div>
 
             <div className="container mx-auto mt-10 mb-20">
@@ -35,7 +37,7 @@ export default function Contact() {
                         </div>
 
                         <div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3056.141605514804!2d-83.01659612347264!3d40.00528441762626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88388ebd3c54d8b5%3A0xf6e017a0b209e909!2s123%20W%20Lane%20Ave%2C%20Columbus%2C%20OH%2043210%2C%20USA!5e0!3m2!1sen!2s!4v1740483382112!5m2!1sen!2s" className="h-100 w-full shadow-xl rounded-md border border-gray-300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3056.141605514804!2d-83.01659612347264!3d40.00528441762626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88388ebd3c54d8b5%3A0xf6e017a0b209e909!2s123%20W%20Lane%20Ave%2C%20Columbus%2C%20OH%2043210%2C%20USA!5e0!3m2!1sen!2s!4v1740483382112!5m2!1sen!2s" className="h-100 w-full shadow-xl rounded-md border border-gray-300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
 
@@ -45,7 +47,7 @@ export default function Contact() {
                             <input type="text" className="shadow-sm p-2 w-full md:w-3/4 block mx-auto border border-gray-300 rounded-sm focus:outline-none mb-5" placeholder="Name *" required />
                             <input type="email" className="shadow-sm p-2 w-full md:w-3/4 block mx-auto border border-gray-300 rounded-sm focus:outline-none mb-5" placeholder="Email *" required />
                             <input type="text" className="shadow-sm p-2 w-full md:w-3/4 block mx-auto border border-gray-300 rounded-sm focus:outline-none mb-5" placeholder="Phone *" required />
-                            <textarea rows="5" style={{resize:"none"}} className="shadow-sm p-2 w-full md:w-3/4 block mx-auto border border-gray-300 rounded-sm focus:outline-none mb-3" placeholder="Message *" required></textarea>
+                            <textarea rows="5" style={{ resize: "none" }} className="shadow-sm p-2 w-full md:w-3/4 block mx-auto border border-gray-300 rounded-sm focus:outline-none mb-3" placeholder="Message *" required></textarea>
                             <button className="bg-gray-900 text-white w-full md:w-3/4 block mx-auto p-2 shadow-sm rounded-sm">Submit</button>
                         </form>
                     </div>

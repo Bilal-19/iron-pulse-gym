@@ -5,12 +5,14 @@ import Footer from "../Components/Footer";
 export default function LandingPage() {
     return (
         <>
-            <Header/>
-            <div className="bg-[url(/HomeImg.jpg)] bg-no-repeat w-full h-80 md:h-100 bg-cover flex flex-col justify-center items-center">
-                <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-3xl md:text-5xl p-5 font-semibold">Welcome to IronPulse Fitness</h1>
-                <p className="ff-playfair italic font-medium text-gray-100 text-xl md:text-2xl text-center mx-3 md:m-0">
-                    Ready to transform? Join IronPulse Fitness today and take the first step toward a stronger, healthier you!
-                </p>
+            <Header />
+            <div className="bg-[url(/HomeImg.webp)] bg-no-repeat w-full h-80 md:h-150 bg-cover flex flex-col justify-center items-center">
+                <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-2xl md:text-5xl p-5 font-semibold slideFromTop">Welcome to IronPulse Fitness</h1>
+                <div className="backdrop-blur-xl p-5 rounded-md slideFromRight bg-gray-500/70">
+                    <p className="ff-playfair italic md:font-medium text-gray-100 text-md md:text-2xl text-center mx-3 md:m-0">
+                        Ready to transform? Join IronPulse Fitness today and take the first step toward a stronger, healthier you!
+                    </p>
+                </div>
             </div>
 
             <div class="container mt-10 mb-10 text-justify mx-auto">
@@ -20,8 +22,8 @@ export default function LandingPage() {
             </div>
 
             <div className="container mx-auto mt-30 mb-10 text-center">
-                <h2 className="text-3xl md:text-4xl mb-2">Why Choose Us?</h2>
-                <p className="mx-2 md:mx-0">
+                <h2 className="text-3xl md:text-4xl mb-2 slideFromRight">Why Choose Us?</h2>
+                <p className="mx-2 md:mx-0 slideFromLeft">
                     At IronPulse Fitness, we're not just a gym - we're a movement. Here's what sets us apart:
                 </p>
             </div>
@@ -61,8 +63,8 @@ export default function LandingPage() {
             </div>
 
             <div className="container mx-auto mt-30 mb-10 text-center">
-                <h2 className="text-3xl md:text-4xl mb-2">Programs Overview</h2>
-                <p className="mx-2 md:mx-0">
+                <h2 className="text-3xl md:text-4xl mb-2 slideFromRight">Programs Overview</h2>
+                <p className="mx-2 md:mx-0 slideFromLeft">
                     Explore our wide range of programs designed to fit your lifestyle and goals:
                 </p>
             </div>

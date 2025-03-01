@@ -5,21 +5,23 @@ import Footer from "../Components/Footer";
 export default function About() {
     return (
         <>
-            <Header/>
+            <Header />
 
-            <div className="bg-[url(/about-bg.jpg)] bg-no-repeat w-full h-80 md:h-100 bg-cover flex flex-col items-center justify-center">
-                <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-3xl md:text-5xl p-5 font-semibold">
+            <div className="bg-[url(/about-bg.webp)] bg-no-repeat w-full h-80 md:h-150 bg-cover flex flex-col items-center justify-center">
+                <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-2xl md:text-5xl p-5 font-semibold slideFromTop">
                     About
                 </h1>
-                <p className="ff-playfair italic text-gray-100 text-xl md:text-2xl text-center mx-3 md:m-0">
-                    Get to know us better – drop by for a tour or schedule a free consultation!
-                </p>
+                <div className="backdrop-blur-xl p-5 rounded-md slideFromRight bg-gray-500/70">
+                    <p className="ff-playfair italic md:font-medium text-gray-100 text-md md:text-2xl text-center mx-3 md:m-0">
+                        Get to know us better – drop by for a tour or schedule a free consultation!
+                    </p>
+                </div>
             </div>
 
             <div class="mx-auto rounded-lg text-white h-120 w-[94%] mt-10 mb-10 bg-[url(/our-story.jpg)] bg-cover bg-no-repeat flex items-center justify-center">
                 <div className="w-3/4 md:w-1/2 text-justify">
-                    <h2 className="text-4xl font-medium mb-2">Our Story</h2>
-                    <p>
+                    <h2 className="text-4xl font-medium mb-2 slideFromRight">Our Story</h2>
+                    <p className="slideFromLeft">
                         IronPulse Fitness was born out of a passion for fitness and a belief that
                         everyone deserves access to top-notch training. Founded in 2023 by fitness
                         enthusiasts, we’ve grown into a community of like-minded individuals who
@@ -32,16 +34,16 @@ export default function About() {
 
             <div class="mx-auto rounded-lg text-white h-120 w-[94%] mt-10 mb-10 bg-[url(/mission.jpg)] bg-cover bg-no-repeat flex items-center justify-center">
                 <div className="w-3/4 md:w-1/2 text-justify">
-                    <h2 className="text-4xl font-medium mb-2">Our Mission</h2>
-                    <p>
+                    <h2 className="text-4xl font-medium mb-2 slideFromRight">Our Mission</h2>
+                    <p className="slideFromLeft">
                         We’re here to help you achieve your fitness goals, no matter where you’re starting from. Whether you’re looking to lose weight, build muscle, or simply live a healthier lifestyle, we’ll provide the tools, knowledge, and motivation you need to succeed.
                     </p>
                 </div>
             </div>
 
             <div className="container mx-auto mt-30 mb-10">
-                <h2 className="text-4xl mb-2 font-medium text-center">Meet the Team:</h2>
-                <p className="mx-4 md:m-0">
+                <h2 className="text-4xl mb-2 font-medium text-center slideFromRight">Meet the Team:</h2>
+                <p className="mx-4 md:m-0 slideFromLeft">
                     Our certified trainers are here to inspire, motivate, and guide you every step of the way. From nutrition advice to workout plans, they’ve got you covered. Get to know the faces behind IronPulse Fitness:
                 </p>
             </div>

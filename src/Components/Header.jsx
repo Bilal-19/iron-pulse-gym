@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import IronPulseLogo from "/public/Iron-Pulse-Logo.png";
+import IronPulseLogo from "/Iron-Pulse-Logo.png";
 import { Link, NavLink } from "react-router-dom";
 
 export default function Header() {

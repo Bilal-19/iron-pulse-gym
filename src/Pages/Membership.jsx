@@ -7,18 +7,20 @@ export default function Membership() {
         <>
             <Header />
 
-            <div className="bg-[url(/membership.jpg)] bg-no-repeat w-full h-80 md:h-100 bg-cover flex flex-col items-center justify-center">
-                <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-3xl md:text-5xl p-5 font-semibold">
+            <div className="bg-[url(/membership.webp)] bg-no-repeat w-full h-80 md:h-150 bg-cover flex flex-col items-center justify-center">
+                <h1 className="m-5 md:m-0 w-full text-center text-gray-100 text-2xl md:text-5xl p-5 font-semibold slideFromTop">
                     Membership
                 </h1>
-                <p className="ff-playfair italic text-gray-100 text-xl md:text-2xl text-center mx-3 md:m-0">
-                    Choose your plan and join the IronPulse family today!
-                </p>
+                <div className="backdrop-blur-xl p-5 rounded-md slideFromRight bg-gray-500/70">
+                    <p className="ff-playfair italic text-gray-100 text-md md:text-2xl text-center mx-3 md:m-0">
+                        Choose your plan and join the IronPulse family today!
+                    </p>
+                </div>
             </div>
 
             <div className="w-full mt-10 mb-10 text-center">
-                <h2 className="text-3xl md:text-4xl mb-2">Membership Plans:</h2>
-                <p className="m-3 md:m-0">
+                <h2 className="text-3xl md:text-4xl mb-2 slideFromRight">Membership Plans:</h2>
+                <p className="m-3 md:m-0 slideFromLeft">
                     We offer flexible membership plans to fit your lifestyle and budget. Here’s what you can choose from:
                 </p>
             </div>
@@ -52,8 +54,8 @@ export default function Membership() {
             </div>
 
             <div className="container mx-auto mt-30 mb-10 text-center">
-                <h2 className="text-3xl md:text-4xl mb-2">Perks of Joining:</h2>
-                <p className="m-1 md:m-0">
+                <h2 className="text-3xl md:text-4xl mb-2 slideFromRight">Perks of Joining:</h2>
+                <p className="m-1 md:m-0 slideFromLeft">
                     When you join IronPulse Fitness, you’re not just getting a gym membership – you’re joining a community. Here’s what you’ll enjoy:
                 </p>
             </div>
